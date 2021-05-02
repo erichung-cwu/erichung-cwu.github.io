@@ -27,6 +27,7 @@
                     <col style="border: 2px solid black">
                     <col span="9">
                 </colgroup>
+
                 <!-- top part-->
                   <thead>
                     <tr>
@@ -44,11 +45,9 @@
                       <th scope="col">Image</th>
                     </tr>
                   </thead>
-
-                    <tr></tr>
-                </thead>
+                  
                 <tbody>
-                    <!--First row part, top thx2, tdx10, formatting duplicated for the rest-->
+                  <!--First row part, top thx2, tdx10, formatting duplicated for the rest, clean up done-->
                     <tr>
                         <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
                         <th scope="row">Mercury</th>
@@ -111,7 +110,7 @@
                     <tr>
                         <th rowspan="4" scope="rowgroup">Jovian planets</th> <!--Tricky-->
                         <th rowspan="2" scope="rowgroup">Gas giants</th>
-                        <th scope="row">Jupiter</th>
+                        <th scope="row">Jupiter</th> <!--should be same as the row, since it display correctly, might be color issue-->
                         <td>1898</td>
                         <td>142,984</td>
                         <td>1326</td>
@@ -139,7 +138,7 @@
                     </tr>
 
                     <tr>
-                        <th rowspan="2" scope="rowgroup">Ice giants</th> <!--trickey 2, multi test-->
+                        <th rowspan="2" scope="rowgroup">Ice giants</th> <!--trickey 2, multi test, looks fine now.-->
                         <th scope="row">Uranus</th>
                         <td>86.8</td>
                         <td>51,118</td>
@@ -167,7 +166,8 @@
                         <td><img src= "images/neptune.jpg" alt="neptune"></td>
                     </tr>
 <!-- stupid enough, I was copy word by word based on the pic from the Canvas, just notice there is a text file included...-->
-                    <tr><th colspan="2" scope="rowgroup">Dwarf planets</th>
+                    <tr>
+                        <th colspan="2" scope="rowgroup">Dwarf planets</th>
                         <th scope="row">Pluto</th>
                         <td>0.0146</td>
                         <td>2,370</td>
@@ -199,6 +199,7 @@
 
                 <!-- The caption element should be the first child of the table element, 
                     and wrap the following text and link.-->
+
                 <!-- The second child of the table element should be the colgroup element, 
                     which also contains several col elements, and helps define the purpose of the table colums. -->  
                 <!-- The table head element should be the third child of the table element; 
