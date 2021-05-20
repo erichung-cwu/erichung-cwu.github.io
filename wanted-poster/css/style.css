@@ -67,15 +67,16 @@ h1 {
 /* the level 2 headings should also have a
 font size of 48px and letter spacing of 4px - both expressed in rem units - and a normal font weight.
 PX to REM: 
-48px = 3rem  4px= 0.25 rem */
+48px = 3rem  4px= 0.25 rem, weight normal*/
 h2 {
     text-transform: uppercase;
-    font: size 3rem;;
+    font: size 3rem;
     margin: 0;
     letter-spacing: 0.25rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
+    font-weight: normal;
     text-align:center;
 }
 
