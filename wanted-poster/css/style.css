@@ -87,10 +87,10 @@ h3 {
     font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
+    color:black;
+    text-shadow:none;
     font-family:'Alfa Slab One', Garamond, serif;
-    font-weight: normal; /* fix no text shadow and foreground colour of black*/
+    font-weight: normal; /* fix no text shadow (above) and foreground colour of black*/
     text-align:center;
 }
 /*the level 4 heading should also have a font size 
@@ -116,18 +116,59 @@ h4.span {
     padding-right: .5rem;
     padding-left: .5rem;
 }
+/*a font size of 16px, top margin of 4px (0.25), padding (top, bottom, left, and right) of 8px (0.5) - all expressed in rem units.
+a background color of #333 and foreground color of #FFF.
+a normal font weight and a text alignment that matches the other headings.
 
-h5 {}
+additional note: anyone can help think how to automate px=rem converter using CSS? don't know enough...*/
+
+h5 {
+    text-transform: uppercase;
+    font-size:1rem;
+    margin-top: 0.25rem;
+    letter-spacing: .5rem;
+    color: #FFF;
+    text-shadow: .09375rem .09375rem .09375rem #000;
+    font-family: 'Alfa Slab One', Garamond, serif;
+    font-weight: normal;
+    text-align: center;
+    background-color: #333; /* colour */
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem; 
+}
 
 
-/* Section & Paragraph */
+/* Section & Paragraph, The sections should be styled with a top margin of 8px 0.5rem, expressed in rem units, while the paragraphs should have:
+a top and bottom margin of 16px (1rem), expressed in rem units, and a left and right margin set to auto.
+padding top and bottom of 0 and padding left and right of 16px (1rem), expressed in rem units.
+a width=90% and text-align: left. */
 
-section {}
+section {
+margin-top: .5rem;
+}
 
-p {}
+p {
+    argin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left
+}
 
 
-/* Image & Figure */
+/* Image & Figure: 
+give the image:
+a width of 100%. Width:100%
+a top and bottom margin of 0, 
+and a left and right margin set to auto. autox2
+a maximum width of 800px (50rem), expressed in rem units.*/
 
 img {
     width: 100%;
@@ -137,12 +178,29 @@ img {
     margin-right: auto;
     max-width: 50rem;
 }
+/* The figure must be styled with a bottom margin of 32px (2rem), expressed in rem units. Additionally:
+give the figcaption a top padding of 8px, expressed in rem units, and text that is right aligned.*/
+figure {
+    margin-bottom: 2rem; /* */
+}
 
-figure {}
+figcaption { 
+    padding-top: 0.5rem;
+    text-align: right;
+}
 
-figcaption {}
 
+/* Footer
+For the footer, apply a padding (top, bottom, left, and right) of 16px=1rem, expressed in rem units, and give it a top border with:
+a width of 32px=2rem, expressed in rem units
+a solid style and a color of #333. */
 
-/* Footer */
-
-footer {}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+        padding-right: 1rem;
+    border-top-style: solid;
+    border-top-width: 2rem; /*issue: it seems like not dispaly correctly, may due to curved monitor*/
+    border-top-color: #333;
+}
