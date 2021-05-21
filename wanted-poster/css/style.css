@@ -70,7 +70,7 @@ PX to REM:
 48px = 3rem  4px= 0.25 rem, weight normal*/
 h2 {
     text-transform: uppercase;
-    font: size 3rem;
+    font-size:3rem;
     margin: 0;
     letter-spacing: 0.25rem;
     color:darkred;
@@ -80,32 +80,42 @@ h2 {
     text-align:center;
 }
 
-/* the level 3 headings should also have a font size of 32px - 
+/* the level 3 headings should also have a font size of 32px (2 rem) - 
 expressed in rem units - a normal font weight, but no text shadow and a foreground color of black.*/
 h3 {
     text-transform: uppercase;
-    font-size:6rem;
+    font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
+    font-weight: normal; /* fix no text shadow and foreground colour of black*/
     text-align:center;
 }
 /*the level 4 heading should also have a font size 
-of 24px, letter spacing of 4px and bottom padding of 18px - all expressed in rem units - and a normal font weight.*/
+of 24px (1.5rem), letter spacing of 4px (0,25 rem) and bottom padding of 18px (1.125rem) - all expressed in rem units - and a normal font weight.*/
 h4 {
     text-transform: uppercase;
-    font-size:6rem;
+    font-size:1.5rem;
     margin: 0;
-    letter-spacing: .5rem;
+    letter-spacing: 0.25rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
+    font-weight: normal;
+    padding-bottom: 1.125rem;
     text-align:center;
 }
 
 /* *FOR above h1-h4 with same styling except */
+
+h4.span {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
 
 h5 {}
 
@@ -119,7 +129,14 @@ p {}
 
 /* Image & Figure */
 
-img {}
+img {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
 
 figure {}
 
