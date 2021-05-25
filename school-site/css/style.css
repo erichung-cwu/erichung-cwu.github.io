@@ -84,7 +84,6 @@ header, footer {
 /* fonts folder, fsff, 2px=0.125rem*/ 
 
 @font-face {
-
     font-family:Montserrat;
     src: url(../fonts/montserrat-regular.ttf) format('truetype');
     font-weight:normal;
@@ -92,7 +91,6 @@ header, footer {
 }
 
 @font-face{
-    
     font-family:Josefinslab;
     src: url(../fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
@@ -187,7 +185,7 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
-    list-style-type: style type; lowercase letter;
+    list-style-type: lowercase letter; /*something wrong in this, a lowercase letter for ordered lists.*/
 }
 
 .long-list a:hover {
