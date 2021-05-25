@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size:16px;
+    font-size:1rem; /*16=1rem, notice the photo provided are lined up*/
 }
 
 body {
