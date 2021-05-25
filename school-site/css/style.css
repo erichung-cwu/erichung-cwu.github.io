@@ -103,13 +103,19 @@ header, footer {
 html {
     font-family:Montserrat, sans-serif;
 }
-/* lv 1*/
+/* lv 1, ffmtl, 60px, 18px, center, Jose+ serif*/
 h1 {
-
+    font-family:Josefinslab, serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+    letter-spacing: .125rem;
 }
-
+/* lv2 24px, after a lv 2 heading with indent of 24px text-indent: 1.5rem*/
 h2 {
-
+    font-family:Josefinslab, serif;
+    font-size: 1.5rem;
+    letter-spacing: .125rem;
 }
 
 h2 + p {
