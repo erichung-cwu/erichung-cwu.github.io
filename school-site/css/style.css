@@ -108,7 +108,7 @@ h1 {
     font-family:Josefinslab, serif;
     font-size: 3.75rem;
     margin: 1.125rem;
-    text-align: center;
+    text-align:center;
     letter-spacing: .125rem;
 }
 /* lv2 24px, after a lv 2 heading with indent of 24px text-indent: 1.5rem*/
@@ -117,58 +117,81 @@ h2 {
     font-size: 1.5rem;
     letter-spacing: .125rem;
 }
-
+/*only select P immediatly after H2
+<h2>Headline!</h2>
+<p>The first paragraph.</p>  <!-- Selected [1] -->
+<p>The second paragraph.</p> <!-- Not selected [2] -->
+even this:
+<h2>A heading</h2>
+<section>
+    <p>This paragraph will NOT be styled.</p>*/
 h2 + p {
-
+    font-size: .75rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+    letter-spacing: .03125rem;
 }
-
+/*not slected p*/
 p {
-
+    font-size: .75rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+    letter-spacing: .03125rem;
 }
 
+/* Final check: a font size of 12px=.75rem, letter spacing of .5px= 0.03125rem, and word spacing of 2px=0.125rem*/
 li {
-
+    font-size: .75rem;
+    word-spacing: .125rem;
+    letter-spacing: .03125rem;
 }
 
 figcaption {
-
+    font-size: .75rem;
+    margin-bottom: 2rem;
 }
 
-
-
-
-
-/* Link Styling */
+/* Link Styling, removes the default outline, 33658A*/
 
 a {
-
+outline:none
 }
 
 a:link,
 a:visited {
-
+    outline: none;
+    color: #33658A
 }
 
 a:focus, 
 a:hover {
-
+    outline: none;
+    text-decoration: none;
 }
 
 
 
 
-/* List Styling */
+/* List Styling, ordered and unordered lists top/bot 16=1rem, margin 0, square typr, lowercase letter, text-transform: */
 
 ul {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: square;
 }
 
 ol {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: style type; lowercase letter;
 }
 
 .long-list a:hover {
-
+text-transform: uppercase;
 }
 
 
