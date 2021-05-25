@@ -179,13 +179,13 @@ ul {
     margin-right: 0;
     list-style-type: square;
 }
-
+/* something wrong in the long-list, as it didn't go all the way down to the photo similar to provided photo */
 ol {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
-    list-style-type: lower-alpha; /*something wrong in this, a lowercase letter for ordered lists.*/
+    list-style-type: lower-alpha; /*a lowercase letter for ordered lists abc.*/
 }
 
 .long-list a:hover {
