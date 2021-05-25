@@ -61,7 +61,7 @@ section, aside, nav, footer {
   padding: .5rem;
 }
 
-/* header and footer */
+/* header and footer*/
 
 header, footer {
   border-top: .125rem solid #33658A;
@@ -78,13 +78,55 @@ header, footer {
 
 
 /* Imported Typfaces */
+/* add two @fontface {}*/
+/* Apply the Montserrat typeface to complete the root (html) styles -done*/
+/* apply the Josefinslab typeface-done*/
+/* fonts folder, fsff, 2px=0.125rem*/ 
 
+@font-face {
 
+    font-family:Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
-
-
+@font-face{
+    
+    font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 /* Typography Styles */
 
+html {
+    font-family:Montserrat, sans-serif;
+}
+/* lv 1*/
+h1 {
+
+}
+
+h2 {
+
+}
+
+h2 + p {
+
+}
+
+p {
+
+}
+
+li {
+
+}
+
+figcaption {
+
+}
 
 
 
@@ -92,28 +134,63 @@ header, footer {
 
 /* Link Styling */
 
+a {
 
+}
+
+a:link,
+a:visited {
+
+}
+
+a:focus, 
+a:hover {
+
+}
 
 
 
 
 /* List Styling */
 
+ul {
 
+}
 
+ol {
 
+}
+
+.long-list a:hover {
+
+}
 
 
 /* Navigation Menu */
 
+nav {
 
+}
 
+nav a {
 
+}
+
+nav a:focus,
+nav a:hover {
+
+}
+
+nav a:active {
+
+}
 
 
 /* Footer Styles */
 
+footer {
 
+}
 
 
 
