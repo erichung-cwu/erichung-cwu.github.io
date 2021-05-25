@@ -195,31 +195,53 @@ text-transform: uppercase;
 }
 
 
-/* Navigation Menu */
+/* Navigation Menu, left padding =0, top margin .25rem, tgt link in container
+remove underline
+display inline-block
+W=100%, H=3
+center text
+text size 18px 1.125rem, 24px=1.5
+bdr-style=solid
+bdr w = 0.625
+color 33658A*/
 
 nav {
-
+    padding-left: 0;
+    margin-top: .25rem;
 }
 
 nav a {
-
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-width: .0625rem;
+    color: #33658A;
 }
-
+/*focus, hver, #FFF, #000 active state*/
 nav a:focus,
 nav a:hover {
-
+    color: #FFF;
+    background-color: #33658A;
 }
 
 nav a:active {
-
+    color: #FFF;
+    background-color: #000;
 }
 
 
 /* Footer Styles */
 
 footer {
-
+    text-align: center;
 }
+
+/*run final check from top->html->CSS */
 
 
 
