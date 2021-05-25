@@ -185,7 +185,7 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
-    list-style-type: lowercase letter; /*something wrong in this, a lowercase letter for ordered lists.*/
+    list-style-type: lower-alpha; /*something wrong in this, a lowercase letter for ordered lists.*/
 }
 
 .long-list a:hover {
