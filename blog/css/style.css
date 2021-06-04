@@ -85,11 +85,70 @@ html {
 
 
   
-/* font=fun */
+/* font=fun, 8 types (based on the included css font)*/
 
+/*sans-serif (LMOR)*/
 
+@font-face {
+    
+    font-family:"lato";
+    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
+@font-face {
 
+    font-family:"montserrat";
+    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"opensans";
+    src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"roboto";
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*serif (JRRU)*/
+
+@font-face {
+
+    font-family:"josefinslab";
+    src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"robotoslab";
+    src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"rozhaone";
+    src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"ultra";
+    src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
 /* ALL <Styles related stuff */
 
