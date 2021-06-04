@@ -1,49 +1,3 @@
-/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
-
-        /* 
-        
-        Spacing 
-
-            - padding (shorthand and/or specific properties like padding-bottom, etc.)
-
-            - margin, (shorthand and/or specific properties like margin-top, etc.)
-
-            - letter-spacing, word-spacing, line-height
-
-            - width, max-width, min-width
-            - height, max-height, min-height
-
-        Typography 
-
-            - font-family, font-size, font-style, font-weight
-
-            - text-decoration, text-align
-
-            - color
-
-            - text-shadow, text-transform
-
-        Box, Layout and Border 
-
-            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
-
-            - box-shadow
-
-            - display, float, align-items, align-content
-
-            - grid-template-columns, grid-column-gap
-
-            - transform
-
-        Other
-
-            - :nth()-child (to target specific child elements)
-
-            - :focus, :hover, :active (to target link states)
-
-            - @font-face or @import (to import typefaces)
-
-        */
 
 
 /* ------ START WRITING YOUR CODE BELOW  
@@ -75,18 +29,34 @@ html {
     margin-right: 1rem;
 }
 
+.highlight {
+    transform: rotate(-10deg);
+}
 
+.article-image{
+    float: left;
+    margin-right: .75rem;
+}
+
+.subsection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 
 
   /*--HeaderFooter--*/
 
-
-  footer {
+footer {
     font-family: "lato", sans-serif;
 }
 
+header {
+    margin-bottom: 8rem;
+    margin-left: none;
+    margin-right: none;
+}
 
   
 /* font=fun, 8 types (based on the included css font)*/
@@ -206,4 +176,18 @@ a:hover {
 
 a:active {
     background-color: rgb(#27476e);
+}
+
+hr {
+    margin-right: 3rem
+    }
+
+.copyright {
+   float: left;
+   text-align: left;
+}
+
+.links {
+   float: right;
+   text-align: right;
 }
