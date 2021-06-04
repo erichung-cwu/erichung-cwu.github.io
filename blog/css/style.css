@@ -161,6 +161,19 @@ h3 {
     border-bottom-right-radius: 10% 30%;
 }
 
+nav {
+    border-top: .03125rem solid rgb(0, 0, 0);
+    border-bottom: .03125rem solid rgb(0, 0, 0);
+    word-spacing: 5rem;
+    line-height: 5rem;
+    margin-left: 3rem;
+}
+
+nav a{
+    font-family: "lato", sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 217, 255, 0.877);
+}
 
 .CHARCOAL {
     text-decoration-line: line-through;
@@ -173,7 +186,21 @@ h3 {
 
 
 
-
+/*SUB*/
+button {
+    font-family:"ultra", serif, times;
+    font-size: 1rem;
+    text-align: center;
+    border: 0.75rem solid (#27476e);
+    background-color: (#27476e);
+    border-top-right-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    border-top-left-radius: 5% 20%;
+    border-bottom-right-radius: 5% 20%;
+    box-shadow: (#3e4041)(black); /*issues?*/
+    color: (#eeeedd);
+    margin-top: 1rem;
+}
 
 
 
@@ -205,4 +232,27 @@ hr {
 .links {
    float: right;
    text-align: right;
+}
+
+p {
+    font-family: "lato", sans-serif;
+    text-align: left;
+
+}
+
+figcaption {
+    border-top: 1rem solid (#eeeedd);
+    border-left: .0625rem solid (#eeeedd);
+    border-right: .0625rem solid (#eeeedd);
+    border-bottom: .0625rem solid (#eeeedd);
+    background-color: (#eeeedd);
+}
+
+aside {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    padding-left: 1rem;
+    border-left: .03125rem solid black;
+    
+    
 }
