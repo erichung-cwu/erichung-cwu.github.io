@@ -83,12 +83,14 @@ html {
   /*--HeaderFooter--*/
 
 
+  footer {
+    font-family: "lato", sans-serif;
+}
+
 
   
 /* font=fun, 8 types (based on the included css font)*/
-
 /*sans-serif (LMOR)*/
-
 @font-face {
     
     font-family:"lato";
@@ -152,9 +154,31 @@ html {
 
 /* ALL <Styles related stuff */
 
+h1 {
+    font-family:"opensans", sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    }
 
+h2 {
+    font-family:"roboto", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
 
+h3 {
+    font-family: "opensans", sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+}
 
+.dots {
+    font-size: .25rem;
+}
 
 
 
@@ -170,4 +194,13 @@ html {
   /*misc*/
   .time {
     font-size: 1rem;
+}
+
+a:hover {
+    border-bottom: .0625rem solid;
+    background-color: rgb(#27476e);
+}
+
+a:active {
+    background-color: rgb(#27476e);
 }
