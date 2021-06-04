@@ -170,10 +170,10 @@ nav {
 nav a{
     font-family: "lato", sans-serif;
     font-size: 1rem;
-    color: rgba(0, 217, 255, 0.877);
+    color: rgba(#27476e);
 }
 
-.lines {
+.lines{
     text-decoration-line: line-through;
     width: 9rem;
     height: 5rem;
@@ -190,13 +190,13 @@ button {
     font-size: 1rem;
     text-align: center;
     border: 0.75rem solid (#27476e);
-    background-color: (#27476e);
+    background-color: (#eeeedd);
     border-top-right-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
     border-top-left-radius: 5% 20%;
     border-bottom-right-radius: 5% 20%;
     box-shadow: (#3e4041)(black); /*issues?*/
-    color: (#eeeedd);
+    color: (#27476e);
     margin-top: 1rem;
 }
 
