@@ -162,6 +162,7 @@ h3 {
     color:(#eeeedd);
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
+    
 
 }
 
@@ -194,12 +195,12 @@ button {
     font-family:"ultra", serif, times;
     font-size: 2rem;
     text-align: center;
-    border: 0.75rem solid (#eeeedd#27476e);
-    background-color: (#eeeedd#27476e);
+    border: 0.75rem solid (#eeeedd)(#27476e);
+    background-color: (#eeeedd)(#27476e);
     border-top-right-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
-    border-top-left-radius: 5% 20%;
-    border-bottom-right-radius: 5% 20%;
+    border-top-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
     box-shadow: (#3e4041); /*issues?*/
     color: (#eeeedd);
     margin-top: 1rem;
