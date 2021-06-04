@@ -195,14 +195,14 @@ button {
     font-family:"ultra", serif, times;
     font-size: 2rem;
     text-align: center;
-    border: 0.75rem (#eeeedd)(#27476e);
-    background-color: (#eeeedd)(#27476e);
+    border: 0.75rem (#cfcf8ce7)(#27476e);
+    background-color: (#cfcf8ce7)(#27476e);
     border-top-right-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
     border-top-left-radius: 10% 30%;
     border-bottom-right-radius: 10% 30%;
     box-shadow: (#3e4041); /*issues?*/
-    color: (#eeeedd);
+    color: (#cfcf8ce7);
     margin-top: 1rem;
 }
 
@@ -245,11 +245,11 @@ p {
 }
 
 figcaption {
-    border-top: 1rem solid (#eeeedd);
-    border-left: .0625rem solid (#eeeedd);
-    border-right: .0625rem solid (#eeeedd);
-    border-bottom: .0625rem solid (#eeeedd);
-    background-color: (#eeeedd);
+    border-top: 1rem solid (#cfcf8ce7);
+    border-left: .0625rem solid (#cfcf8ce7);
+    border-right: .0625rem solid (#cfcf8ce7);
+    border-bottom: .0625rem solid (#cfcf8ce7);
+    background-color: (#cfcf8ce7);
 }
 
 aside {
