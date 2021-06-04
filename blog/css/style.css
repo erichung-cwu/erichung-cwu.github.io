@@ -6,6 +6,7 @@ https://imagecolorpicker.com/en for all color stuff
   * {
     box-sizing: border-box;
 }
+
 html {
     font-size:1rem; /*rem is suprior*/
 }
@@ -26,7 +27,7 @@ body {
 }
 
 .highlight {
-    transform: rotate(-12deg);
+    transform: rotate(-12deg); /*still not working*/
 }
 
 .article-image{
@@ -119,6 +120,8 @@ header {
     font-style:normal;
 }
 
+
+
 /* ALL <Styles related stuff */
 
 h1 {
@@ -128,6 +131,12 @@ h1 {
     position: relative;
     padding: 1rem;
     }
+
+h1 {
+    transform: rotate(-12deg);
+    outline: 0;
+    padding: 0;
+}
 
 h2 {
     font-family:"roboto", sans-serif;
