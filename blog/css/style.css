@@ -10,6 +10,11 @@ html {
     font-size:1rem; /*rem is suprior*/
 }
 
+body {
+    margin: 1rem auto;
+    width:100%; 
+}
+
 * {
     background-color:rgb(255, 255, 255); /*#ffffff*/
 }
@@ -179,7 +184,6 @@ nav a{
     width: 9rem;
     height: 5rem;
     color: black;
-    text-transform: uppercase;
     transform: rotate(10deg);
     }
 
