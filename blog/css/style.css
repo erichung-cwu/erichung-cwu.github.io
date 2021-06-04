@@ -39,6 +39,7 @@ html {
 
 
 
+
   /*--HeaderFooter--*/
 
 footer {
@@ -143,6 +144,22 @@ h3 {
     font-size: .25rem;
 }
 
+
+
+/*STYLE STUFFS*/
+
+.highlight {
+    font-family:"ultra", serif;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    border: .5rem solid (#83344d);
+    background-color: (#83344d)n;
+    box-shadow: (#3b3b3b);
+    color:(#eeeedd);
+    border-top-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+}
 
 
 .CHARCOAL {
