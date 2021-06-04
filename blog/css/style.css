@@ -69,7 +69,11 @@ html {
     background-color:rgb(255, 255, 255); /*#ffffff*/
 }
 
-  
+.main-section {
+    display: flex; /*maybe*/
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
 
 
 
@@ -77,3 +81,34 @@ html {
 
 
   /*--HeaderFooter--*/
+
+
+
+  
+/* font=fun */
+
+
+
+
+
+/* ALL <Styles related stuff */
+
+
+
+
+
+
+
+.CHARCOAL {
+    text-decoration-line: line-through;
+    width: 9rem;
+    height: 5rem;
+    color: black;
+    text-transform: uppercase;
+    }
+
+
+  /*misc*/
+  .time {
+    font-size: 1rem;
+}
