@@ -49,3 +49,7 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+header, footer {
+    border-top: .125rem solid #000000;
+    border-bottom: .125rem solid #000000;
+  }
