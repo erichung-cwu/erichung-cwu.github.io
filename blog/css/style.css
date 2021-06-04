@@ -151,8 +151,8 @@ h3 {
     font-size: 4rem;
     text-align: center;
     padding: 1rem;
-    border: .5rem solid (#83344d);
-    background-color: (#83344d)n;
+    border: .5rem (#83344d);
+    background-color: (#83344d);
     box-shadow: (#3b3b3b);
     color:(#eeeedd);
     border-top-left-radius: 10% 30%;
@@ -255,3 +255,4 @@ aside {
     
     
 }
+/*no px*/
