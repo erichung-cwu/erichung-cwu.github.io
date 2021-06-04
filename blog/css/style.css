@@ -195,7 +195,7 @@ button {
     border-bottom-left-radius: 10% 30%;
     border-top-left-radius: 5% 20%;
     border-bottom-right-radius: 5% 20%;
-    box-shadow: (#3e4041)(black); /*issues?*/
+    box-shadow: (#3e4041); /*issues?*/
     color: (#27476e);
     margin-top: 1rem;
 }
