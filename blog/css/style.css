@@ -4,13 +4,6 @@
 https://imagecolorpicker.com/en for all color stuff
 ------ */
 
-/*color, del after*/
-header, footer {
-    border-top: .125rem solid #991919;
-    border-bottom: .125rem solid #706969;
-  }
-
-
   /*GS*/
   * {
     box-sizing: border-box;
@@ -164,8 +157,13 @@ h3 {
 
 
 
+
+
+
+
+
     /*misc*/
-  .time {
+.time {
     font-size: 1rem;
 }
 
